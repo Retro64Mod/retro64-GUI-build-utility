@@ -12,7 +12,7 @@ namespace sm64_pcport_installer.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.1.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,18 +25,6 @@ namespace sm64_pcport_installer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("sm64-port")]
-        public string source {
-            get {
-                return ((string)(this["source"]));
-            }
-            set {
-                this["source"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public int jobNum {
             get {
@@ -44,18 +32,6 @@ namespace sm64_pcport_installer.Properties {
             }
             set {
                 this["jobNum"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool updateSrc {
-            get {
-                return ((bool)(this["updateSrc"]));
-            }
-            set {
-                this["updateSrc"] = value;
             }
         }
         
@@ -85,18 +61,6 @@ namespace sm64_pcport_installer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool shortcut {
-            get {
-                return ((bool)(this["shortcut"]));
-            }
-            set {
-                this["shortcut"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string backup {
             get {
@@ -116,18 +80,6 @@ namespace sm64_pcport_installer.Properties {
             }
             set {
                 this["msys2"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string ROM {
-            get {
-                return ((string)(this["ROM"]));
-            }
-            set {
-                this["ROM"] = value;
             }
         }
         
@@ -164,126 +116,6 @@ namespace sm64_pcport_installer.Properties {
             }
             set {
                 this["advanced"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int version {
-            get {
-                return ((int)(this["version"]));
-            }
-            set {
-                this["version"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool n64 {
-            get {
-                return ((bool)(this["n64"]));
-            }
-            set {
-                this["n64"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool bettercam {
-            get {
-                return ((bool)(this["bettercam"]));
-            }
-            set {
-                this["bettercam"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool textureFix {
-            get {
-                return ((bool)(this["textureFix"]));
-            }
-            set {
-                this["textureFix"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool extraOptions {
-            get {
-                return ((bool)(this["extraOptions"]));
-            }
-            set {
-                this["extraOptions"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool externalData {
-            get {
-                return ((bool)(this["externalData"]));
-            }
-            set {
-                this["externalData"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool discord {
-            get {
-                return ((bool)(this["discord"]));
-            }
-            set {
-                this["discord"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool textSaves {
-            get {
-                return ((bool)(this["textSaves"]));
-            }
-            set {
-                this["textSaves"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool draw {
-            get {
-                return ((bool)(this["draw"]));
-            }
-            set {
-                this["draw"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int render {
-            get {
-                return ((int)(this["render"]));
-            }
-            set {
-                this["render"] = value;
             }
         }
     }

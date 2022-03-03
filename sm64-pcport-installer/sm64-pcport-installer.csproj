@@ -115,6 +115,7 @@
     <None Include="Resources\advanced-closed.png" />
     <None Include="Resources\advanced-open.bmp" />
     <None Include="Resources\advanced-open.png" />
+    <None Include="Resources\retro64logo.png" />
     <Content Include="Tatice-Operating-Systems-Etoile.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -159,189 +159,6 @@ output from terminal sessions when applicable.</value>
   <data name="&gt;&gt;outputText.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;sourceButton3.Name" xml:space="preserve">
-    <value>sourceButton3</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Name" xml:space="preserve">
-    <value>sourceButton2</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Name" xml:space="preserve">
-    <value>sourceButton1</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="repoSource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 3</value>
-  </data>
-  <data name="repoSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="repoSource.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="repoSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 86</value>
-  </data>
-  <data name="repoSource.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="repoSource.Text" xml:space="preserve">
-    <value>Source</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Name" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;repoSource.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="sourceButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="sourceButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
-  </data>
-  <data name="sourceButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="sourceButton3.Text" xml:space="preserve">
-    <value>SM64 EX (main)</value>
-  </data>
-  <data name="sourceButton3.ToolTip" xml:space="preserve">
-    <value>This is the repository for the EX version of the
-Super Mario 64 port. It includes some level of
-mod support which varies slightly from
-release to release. This is however the main
-repo and is considered relatively stable.</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Name" xml:space="preserve">
-    <value>sourceButton3</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="sourceButton2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 59</value>
-  </data>
-  <data name="sourceButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
-  </data>
-  <data name="sourceButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="sourceButton2.Text" xml:space="preserve">
-    <value>SM64 EX (nightly)</value>
-  </data>
-  <data name="sourceButton2.ToolTip" xml:space="preserve">
-    <value>This is the nightly repository of the EX version.
-It is updated frequently, but as a consequence
-may break itself, mods, or other functionality.</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Name" xml:space="preserve">
-    <value>sourceButton2</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="sourceButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 17</value>
-  </data>
-  <data name="sourceButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 17</value>
-  </data>
-  <data name="sourceButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="sourceButton1.Text" xml:space="preserve">
-    <value>Official</value>
-  </data>
-  <data name="sourceButton1.ToolTip" xml:space="preserve">
-    <value>The official repository of the Super Mario 64 PC Port.
-This repository should be considered the vanilla repository
-and should be used if you simply want to play the game
-as it originally was on the N64.</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Name" xml:space="preserve">
-    <value>sourceButton1</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="jobLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -389,44 +206,6 @@ system can handle it.</value>
   <data name="&gt;&gt;jobLabel.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="updateCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="updateCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="updateCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 93</value>
-  </data>
-  <data name="updateCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="updateCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 17</value>
-  </data>
-  <data name="updateCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="updateCheck.Text" xml:space="preserve">
-    <value>Check for repo updates</value>
-  </data>
-  <data name="updateCheck.ToolTip" xml:space="preserve">
-    <value>Check this if you would like to check for
-updates to your selected repository
-prior to compiling your executable.</value>
-  </data>
-  <data name="&gt;&gt;updateCheck.Name" xml:space="preserve">
-    <value>updateCheck</value>
-  </data>
-  <data name="&gt;&gt;updateCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;updateCheck.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;updateCheck.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="jobNumber.Location" type="System.Drawing.Point, System.Drawing">
     <value>217, 137</value>
   </data>
@@ -466,10 +245,10 @@ system can handle it.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobNumber.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>15</value>
   </data>
   <data name="backupText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 176</value>
+    <value>3, 218</value>
   </data>
   <data name="backupText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -497,7 +276,7 @@ file until the build is complete.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;backupText.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>16</value>
   </data>
   <data name="labelBackup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -506,7 +285,7 @@ file until the build is complete.</value>
     <value>NoControl</value>
   </data>
   <data name="labelBackup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 159</value>
+    <value>1, 201</value>
   </data>
   <data name="labelBackup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -537,7 +316,7 @@ file until the build is complete.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelBackup.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="backupBrowse.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -549,7 +328,7 @@ file until the build is complete.</value>
     <value>NoControl</value>
   </data>
   <data name="backupBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>271, 174</value>
+    <value>270, 216</value>
   </data>
   <data name="backupBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -625,13 +404,13 @@ should you so choose.</value>
     <value>NoControl</value>
   </data>
   <data name="sm64PortLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 2</value>
+    <value>193, 3</value>
   </data>
   <data name="sm64PortLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 108</value>
+    <value>139, 107</value>
   </data>
   <data name="sm64PortLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
+    <value>Zoom</value>
   </data>
   <data name="sm64PortLogo.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -646,7 +425,7 @@ should you so choose.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;sm64PortLogo.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="buttonCompile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -685,7 +464,7 @@ should you so choose.</value>
     <value>NoControl</value>
   </data>
   <data name="labelMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 198</value>
+    <value>1, 240</value>
   </data>
   <data name="labelMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 13</value>
@@ -711,10 +490,10 @@ it can be changed to wherever it needs to be.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelMSYS2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="textMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 214</value>
+    <value>3, 256</value>
   </data>
   <data name="textMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 20</value>
@@ -749,7 +528,7 @@ it can be changed to wherever it needs to be.</value>
     <value>NoControl</value>
   </data>
   <data name="buttonMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>271, 212</value>
+    <value>270, 254</value>
   </data>
   <data name="buttonMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 23</value>
@@ -821,111 +600,6 @@ will continue.</value>
   <data name="&gt;&gt;checkLog.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="labelROM.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelROM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 237</value>
-  </data>
-  <data name="labelROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 13</value>
-  </data>
-  <data name="labelROM.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="labelROM.Text" xml:space="preserve">
-    <value>Baserom directory:</value>
-  </data>
-  <data name="labelROM.ToolTip" xml:space="preserve">
-    <value>This allows you to select your existing baserom
-copy. This reference will only be used if the baserom
-is not already present in the local repository thus
-making it a requirement for initial builds or full
-re-builds.</value>
-  </data>
-  <data name="&gt;&gt;labelROM.Name" xml:space="preserve">
-    <value>labelROM</value>
-  </data>
-  <data name="&gt;&gt;labelROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelROM.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;labelROM.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="textROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 253</value>
-  </data>
-  <data name="textROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="textROM.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="textROM.ToolTip" xml:space="preserve">
-    <value>This allows you to select your existing baserom
-copy. This reference will only be used if the baserom
-is not already present in the local repository thus
-making it a requirement for initial builds or full
-re-builds.</value>
-  </data>
-  <data name="&gt;&gt;textROM.Name" xml:space="preserve">
-    <value>textROM</value>
-  </data>
-  <data name="&gt;&gt;textROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textROM.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;textROM.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="buttonROM.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonROM.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="buttonROM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>272, 251</value>
-  </data>
-  <data name="buttonROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 23</value>
-  </data>
-  <data name="buttonROM.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="buttonROM.Text" xml:space="preserve">
-    <value>Browse...</value>
-  </data>
-  <data name="buttonROM.ToolTip" xml:space="preserve">
-    <value>This allows you to select your existing baserom
-copy. This reference will only be used if the baserom
-is not already present in the local repository thus
-making it a requirement for initial builds or full
-re-builds.</value>
-  </data>
-  <data name="&gt;&gt;buttonROM.Name" xml:space="preserve">
-    <value>buttonROM</value>
-  </data>
-  <data name="&gt;&gt;buttonROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonROM.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;buttonROM.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="labelLog.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -993,43 +667,6 @@ in the background normally will instead be shown.</value>
   <data name="&gt;&gt;checkTerm.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkShortcut.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkShortcut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkShortcut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 115</value>
-  </data>
-  <data name="checkShortcut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 17</value>
-  </data>
-  <data name="checkShortcut.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="checkShortcut.Text" xml:space="preserve">
-    <value>Create Shortcut</value>
-  </data>
-  <data name="checkShortcut.ToolTip" xml:space="preserve">
-    <value>If checked, the final result of the build process will
-be the creation of a folder containing a shortcut to
-your newly created executable. In addition, the
-game's save and configuration files will reside here
-on some versions.</value>
-  </data>
-  <data name="&gt;&gt;checkShortcut.Name" xml:space="preserve">
-    <value>checkShortcut</value>
-  </data>
-  <data name="&gt;&gt;checkShortcut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkShortcut.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;checkShortcut.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="compileProgress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1052,7 +689,7 @@ on some versions.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;compileProgress.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="advancedBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1083,13 +720,84 @@ options panel.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;advancedBar.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="panelSimple.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="panelSimple.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="versionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="versionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 161</value>
+  </data>
+  <data name="versionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="versionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="versionLabel.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="versionLabel.ToolTip" xml:space="preserve">
+    <value>This allows you to select the regional version you
+wish to build. This includes US, JP, EU, and SH.
+This also influences the hash checks of the
+baserom both at selection and compiling.
+
+WARNING: Shindou version is experimental and
+will most likely not build in its current state. This
+however may change in time.</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Name" xml:space="preserve">
+    <value>versionLabel</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="verCombo.Items" xml:space="preserve">
+    <value>1.18.1</value>
+  </data>
+  <data name="verCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 158</value>
+  </data>
+  <data name="verCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="verCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="verCombo.ToolTip" xml:space="preserve">
+    <value>This allows you to select the regional version you
+wish to build. This includes US, JP, EU, and SH.
+This also influences the hash checks of the
+baserom both at selection and compiling.
+
+WARNING: Shindou version is experimental and
+will most likely not build in its current state. This
+however may change in time.</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Name" xml:space="preserve">
+    <value>verCombo</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;verCombo.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="panelSimple.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 5</value>
@@ -1121,516 +829,6 @@ options panel.</value>
   <data name="panelAdvanced.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
-  <data name="advWarning.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="advWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 327</value>
-  </data>
-  <data name="advWarning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 39</value>
-  </data>
-  <data name="advWarning.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="advWarning.Text" xml:space="preserve">
-    <value>Advanced Build Options are subject
-to change and may, at times, be
-broken by future repo changes.</value>
-  </data>
-  <data name="&gt;&gt;advWarning.Name" xml:space="preserve">
-    <value>advWarning</value>
-  </data>
-  <data name="&gt;&gt;advWarning.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;advWarning.Parent" xml:space="preserve">
-    <value>panelAdvanced</value>
-  </data>
-  <data name="&gt;&gt;advWarning.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 246</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 78</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Troubleshooting</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>panelAdvanced</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="makeGroup.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="makeGroup.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="renderCombo.Items" xml:space="preserve">
-    <value>OpenGL 2.1</value>
-  </data>
-  <data name="renderCombo.Items1" xml:space="preserve">
-    <value>Direct3D 11</value>
-  </data>
-  <data name="renderCombo.Items2" xml:space="preserve">
-    <value>Direct3D 12</value>
-  </data>
-  <data name="renderCombo.Items3" xml:space="preserve">
-    <value>OpenGL 1.3</value>
-  </data>
-  <data name="renderCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 39</value>
-  </data>
-  <data name="renderCombo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 21</value>
-  </data>
-  <data name="renderCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="renderCombo.ToolTip" xml:space="preserve">
-    <value>Allows you to select your target render API.
-
-The options are:
-OpenGL 2.1
-Direct3D 11
-Direct3D 12
-OpenGL 1.3 (Legacy)</value>
-  </data>
-  <data name="&gt;&gt;renderCombo.Name" xml:space="preserve">
-    <value>renderCombo</value>
-  </data>
-  <data name="&gt;&gt;renderCombo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;renderCombo.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;renderCombo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelRender.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelRender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 42</value>
-  </data>
-  <data name="labelRender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="labelRender.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="labelRender.Text" xml:space="preserve">
-    <value>Render API</value>
-  </data>
-  <data name="labelRender.ToolTip" xml:space="preserve">
-    <value>Allows you to select your target render API.
-
-The options are:
-OpenGL 2.1
-Direct3D 11
-Direct3D 12
-OpenGL 1.3 (Legacy)</value>
-  </data>
-  <data name="&gt;&gt;labelRender.Name" xml:space="preserve">
-    <value>labelRender</value>
-  </data>
-  <data name="&gt;&gt;labelRender.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelRender.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;labelRender.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="drawCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="drawCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="drawCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="drawCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 87</value>
-  </data>
-  <data name="drawCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="drawCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="drawCheck.Text" xml:space="preserve">
-    <value>No Draw Distance</value>
-  </data>
-  <data name="drawCheck.ToolTip" xml:space="preserve">
-    <value>This turns of the draw distance limitation and allows
-all objects (enemies, coins, etc.) to be rendered at all
-distances.
-
-This has the side effect of not removing these items
-behaviors when away including sound effects and
-movement.</value>
-  </data>
-  <data name="&gt;&gt;drawCheck.Name" xml:space="preserve">
-    <value>drawCheck</value>
-  </data>
-  <data name="&gt;&gt;drawCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;drawCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;drawCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="extCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="extCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="extCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="extCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 156</value>
-  </data>
-  <data name="extCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 17</value>
-  </data>
-  <data name="extCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="extCheck.Text" xml:space="preserve">
-    <value>Load External Data</value>
-  </data>
-  <data name="extCheck.ToolTip" xml:space="preserve">
-    <value>This allows external data to be utilized by the
-game at launch. This allows for some level of
-"hot modding" the game by simply dropping
-files into the correct folder.</value>
-  </data>
-  <data name="&gt;&gt;extCheck.Name" xml:space="preserve">
-    <value>extCheck</value>
-  </data>
-  <data name="&gt;&gt;extCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;extCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;extCheck.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="saveCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="saveCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="saveCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="saveCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 201</value>
-  </data>
-  <data name="saveCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 17</value>
-  </data>
-  <data name="saveCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="saveCheck.Text" xml:space="preserve">
-    <value>Text Saves (Experimental)</value>
-  </data>
-  <data name="saveCheck.ToolTip" xml:space="preserve">
-    <value>An experimental feature to save data as plain text
-rather than data. This will allow for simple save
-edits via a standard word processing application.</value>
-  </data>
-  <data name="&gt;&gt;saveCheck.Name" xml:space="preserve">
-    <value>saveCheck</value>
-  </data>
-  <data name="&gt;&gt;saveCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;saveCheck.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="discordCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="discordCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="discordCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="discordCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 178</value>
-  </data>
-  <data name="discordCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 17</value>
-  </data>
-  <data name="discordCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="discordCheck.Text" xml:space="preserve">
-    <value>Enable Discord Rich Presence</value>
-  </data>
-  <data name="discordCheck.ToolTip" xml:space="preserve">
-    <value>This enables Discord Rich Presence support. This
-allows Discord to connect to your executable and
-show your current level on your Discord status.</value>
-  </data>
-  <data name="&gt;&gt;discordCheck.Name" xml:space="preserve">
-    <value>discordCheck</value>
-  </data>
-  <data name="&gt;&gt;discordCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;discordCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;discordCheck.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="versionLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="versionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 16</value>
-  </data>
-  <data name="versionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 13</value>
-  </data>
-  <data name="versionLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="versionLabel.Text" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="versionLabel.ToolTip" xml:space="preserve">
-    <value>This allows you to select the regional version you
-wish to build. This includes US, JP, EU, and SH.
-This also influences the hash checks of the
-baserom both at selection and compiling.
-
-WARNING: Shindou version is experimental and
-will most likely not build in its current state. This
-however may change in time.</value>
-  </data>
-  <data name="&gt;&gt;versionLabel.Name" xml:space="preserve">
-    <value>versionLabel</value>
-  </data>
-  <data name="&gt;&gt;versionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;versionLabel.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;versionLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="verCombo.Items" xml:space="preserve">
-    <value>us</value>
-  </data>
-  <data name="verCombo.Items1" xml:space="preserve">
-    <value>jp</value>
-  </data>
-  <data name="verCombo.Items2" xml:space="preserve">
-    <value>eu</value>
-  </data>
-  <data name="verCombo.Items3" xml:space="preserve">
-    <value>sh</value>
-  </data>
-  <data name="verCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 12</value>
-  </data>
-  <data name="verCombo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 21</value>
-  </data>
-  <data name="verCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="verCombo.ToolTip" xml:space="preserve">
-    <value>This allows you to select the regional version you
-wish to build. This includes US, JP, EU, and SH.
-This also influences the hash checks of the
-baserom both at selection and compiling.
-
-WARNING: Shindou version is experimental and
-will most likely not build in its current state. This
-however may change in time.</value>
-  </data>
-  <data name="&gt;&gt;verCombo.Name" xml:space="preserve">
-    <value>verCombo</value>
-  </data>
-  <data name="&gt;&gt;verCombo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;verCombo.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;verCombo.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="textureCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textureCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="textureCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="textureCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 110</value>
-  </data>
-  <data name="textureCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
-  </data>
-  <data name="textureCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="textureCheck.Text" xml:space="preserve">
-    <value>Texture Fix (smoke fix)</value>
-  </data>
-  <data name="textureCheck.ToolTip" xml:space="preserve">
-    <value>This is a texture fix, primarily to address a known
-bug in the original game which prevented the smoke
-animation from running when Mario is burnt.</value>
-  </data>
-  <data name="&gt;&gt;textureCheck.Name" xml:space="preserve">
-    <value>textureCheck</value>
-  </data>
-  <data name="&gt;&gt;textureCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textureCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;textureCheck.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="optionsCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optionsCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="optionsCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="optionsCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 133</value>
-  </data>
-  <data name="optionsCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 17</value>
-  </data>
-  <data name="optionsCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="optionsCheck.Text" xml:space="preserve">
-    <value>Extra Options Menu</value>
-  </data>
-  <data name="optionsCheck.ToolTip" xml:space="preserve">
-    <value>This enables an extra options menu from the pause
-menu. This is accessed by the "R" button on the N64
-controller. Keybinding for your keyboard and/or
-controller may vary.</value>
-  </data>
-  <data name="&gt;&gt;optionsCheck.Name" xml:space="preserve">
-    <value>optionsCheck</value>
-  </data>
-  <data name="&gt;&gt;optionsCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optionsCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;optionsCheck.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="camCheck.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="camCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="camCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 64</value>
-  </data>
-  <data name="camCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="camCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="camCheck.Text" xml:space="preserve">
-    <value>BetterCam</value>
-  </data>
-  <data name="camCheck.ToolTip" xml:space="preserve">
-    <value>This introduces an analog, free control camera.
-While the control is free, it also lacks the native
-scripted camera movements from the original and
-you must control the camera at all times relative
-to Mario.
-
-Some levels, notably the Bowser levels, revert to the
-original camera for technical reasons outside the
-scope of this utility.</value>
-  </data>
-  <data name="&gt;&gt;camCheck.Name" xml:space="preserve">
-    <value>camCheck</value>
-  </data>
-  <data name="&gt;&gt;camCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;camCheck.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;camCheck.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="makeGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="makeGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 237</value>
-  </data>
-  <data name="makeGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="makeGroup.Text" xml:space="preserve">
-    <value>Make Options</value>
-  </data>
   <data name="&gt;&gt;makeGroup.Name" xml:space="preserve">
     <value>makeGroup</value>
   </data>
@@ -1641,13 +839,13 @@ scope of this utility.</value>
     <value>panelAdvanced</value>
   </data>
   <data name="&gt;&gt;makeGroup.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="panelAdvanced.Location" type="System.Drawing.Point, System.Drawing">
     <value>377, 5</value>
   </data>
   <data name="panelAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 366</value>
+    <value>190, 142</value>
   </data>
   <data name="panelAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -1667,41 +865,77 @@ scope of this utility.</value>
   <data name="&gt;&gt;panelAdvanced.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="n64Check.AutoSize" type="System.Boolean, mscorlib">
+  <data name="makeGroup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="n64Check.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="makeGroup.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
-  <data name="n64Check.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="n64Check.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1211, 516</value>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="n64Check.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 17</value>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>makeGroup</value>
   </data>
-  <data name="n64Check.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="n64Check.Text" xml:space="preserve">
-    <value>Build N64 ROM</value>
+  <data name="makeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="n64Check.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="makeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 136</value>
   </data>
-  <data name="&gt;&gt;n64Check.Name" xml:space="preserve">
-    <value>n64Check</value>
+  <data name="makeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;n64Check.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="makeGroup.Text" xml:space="preserve">
+    <value>Make Options</value>
   </data>
-  <data name="&gt;&gt;n64Check.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;makeGroup.Name" xml:space="preserve">
+    <value>makeGroup</value>
   </data>
-  <data name="&gt;&gt;n64Check.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;makeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.Parent" xml:space="preserve">
+    <value>panelAdvanced</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 78</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Troubleshooting</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
