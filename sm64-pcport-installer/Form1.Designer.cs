@@ -49,12 +49,13 @@
             this.compileProgress = new System.Windows.Forms.ProgressBar();
             this.advancedBar = new System.Windows.Forms.PictureBox();
             this.panelSimple = new System.Windows.Forms.Panel();
+            this.versionLabel = new System.Windows.Forms.Label();
+            this.verCombo = new System.Windows.Forms.ComboBox();
             this.panelAdvanced = new System.Windows.Forms.Panel();
             this.makeGroup = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.versionLabel = new System.Windows.Forms.Label();
-            this.verCombo = new System.Windows.Forms.ComboBox();
             this.toolTipMain = new System.Windows.Forms.ToolTip(this.components);
+            this.getVersBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.jobNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sm64PortLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.advancedBar)).BeginInit();
@@ -187,6 +188,7 @@
             // panelSimple
             // 
             resources.ApplyResources(this.panelSimple, "panelSimple");
+            this.panelSimple.Controls.Add(this.getVersBtn);
             this.panelSimple.Controls.Add(this.advancedBar);
             this.panelSimple.Controls.Add(this.versionLabel);
             this.panelSimple.Controls.Add(this.buttonCompile);
@@ -205,6 +207,22 @@
             this.panelSimple.Controls.Add(this.jobNumber);
             this.panelSimple.Controls.Add(this.backupText);
             this.panelSimple.Name = "panelSimple";
+            // 
+            // versionLabel
+            // 
+            resources.ApplyResources(this.versionLabel, "versionLabel");
+            this.versionLabel.Name = "versionLabel";
+            this.toolTipMain.SetToolTip(this.versionLabel, resources.GetString("versionLabel.ToolTip"));
+            // 
+            // verCombo
+            // 
+            this.verCombo.FormattingEnabled = true;
+            this.verCombo.Items.AddRange(new object[] {
+            resources.GetString("verCombo.Items")});
+            resources.ApplyResources(this.verCombo, "verCombo");
+            this.verCombo.Name = "verCombo";
+            this.toolTipMain.SetToolTip(this.verCombo, resources.GetString("verCombo.ToolTip"));
+            this.verCombo.SelectedIndexChanged += new System.EventHandler(this.verCombo_SelectedIndexChanged);
             // 
             // panelAdvanced
             // 
@@ -227,21 +245,12 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // versionLabel
+            // getVersBtn
             // 
-            resources.ApplyResources(this.versionLabel, "versionLabel");
-            this.versionLabel.Name = "versionLabel";
-            this.toolTipMain.SetToolTip(this.versionLabel, resources.GetString("versionLabel.ToolTip"));
-            // 
-            // verCombo
-            // 
-            this.verCombo.FormattingEnabled = true;
-            this.verCombo.Items.AddRange(new object[] {
-            resources.GetString("verCombo.Items")});
-            resources.ApplyResources(this.verCombo, "verCombo");
-            this.verCombo.Name = "verCombo";
-            this.toolTipMain.SetToolTip(this.verCombo, resources.GetString("verCombo.ToolTip"));
-            this.verCombo.SelectedIndexChanged += new System.EventHandler(this.verCombo_SelectedIndexChanged);
+            resources.ApplyResources(this.getVersBtn, "getVersBtn");
+            this.getVersBtn.Name = "getVersBtn";
+            this.getVersBtn.UseVisualStyleBackColor = true;
+            this.getVersBtn.Click += new System.EventHandler(this.getVersBtn_Click);
             // 
             // Main
             // 
@@ -294,6 +303,7 @@
         private System.Windows.Forms.ComboBox verCombo;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ToolTip toolTipMain;
+        private System.Windows.Forms.Button getVersBtn;
     }
 }
 

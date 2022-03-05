@@ -157,7 +157,7 @@ output from terminal sessions when applicable.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;outputText.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="jobLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -204,10 +204,10 @@ system can handle it.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="jobNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 137</value>
+    <value>217, 135</value>
   </data>
   <data name="jobNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -245,7 +245,7 @@ system can handle it.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobNumber.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="backupText.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 218</value>
@@ -276,7 +276,7 @@ file until the build is complete.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;backupText.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="labelBackup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -316,7 +316,7 @@ file until the build is complete.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelBackup.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="backupBrowse.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -359,7 +359,7 @@ file until the build is complete.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;backupBrowse.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="checkDepend.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -398,7 +398,7 @@ should you so choose.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;checkDepend.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="sm64PortLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -425,7 +425,7 @@ should you so choose.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;sm64PortLogo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonCompile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -455,7 +455,7 @@ should you so choose.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;buttonCompile.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelMSYS2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -490,7 +490,7 @@ it can be changed to wherever it needs to be.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelMSYS2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="textMSYS2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 256</value>
@@ -516,7 +516,7 @@ it can be changed to wherever it needs to be.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;textMSYS2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="buttonMSYS2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -554,7 +554,7 @@ it can be changed to wherever it needs to be.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;buttonMSYS2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="checkLog.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -628,7 +628,7 @@ will continue.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelLog.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="checkTerm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -689,7 +689,7 @@ in the background normally will instead be shown.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;compileProgress.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="advancedBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -720,13 +720,37 @@ options panel.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;advancedBar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="panelSimple.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="panelSimple.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="getVersBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 157</value>
+  </data>
+  <data name="getVersBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="getVersBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="getVersBtn.Text" xml:space="preserve">
+    <value>Get Versions</value>
+  </data>
+  <data name="&gt;&gt;getVersBtn.Name" xml:space="preserve">
+    <value>getVersBtn</value>
+  </data>
+  <data name="&gt;&gt;getVersBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;getVersBtn.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;getVersBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="versionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -763,16 +787,16 @@ however may change in time.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;versionLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="verCombo.Items" xml:space="preserve">
-    <value>1.18.1</value>
+    <value>HEAD</value>
   </data>
   <data name="verCombo.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 158</value>
   </data>
   <data name="verCombo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
+    <value>113, 21</value>
   </data>
   <data name="verCombo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -797,7 +821,7 @@ however may change in time.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;verCombo.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="panelSimple.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 5</value>

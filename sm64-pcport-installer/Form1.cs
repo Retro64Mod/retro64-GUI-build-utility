@@ -63,6 +63,19 @@ namespace sm64_pcport_installer
 
         }
 
+        private string[] getVersions()
+        {
+            addToLog("Getting versions...");
+            var tagsStr = executeMSYS2($@"git ls-remote --sort='version:refname' --tags {sourceRepoURL} | sed -E 's/^[[:xdigit:]]+[[:space:]]+refs\/tags\/(.+)/\1/g'");
+            List<string> tags = new List<string>();
+            // Split tags into separate lines, add to tags list
+            tags.AddRange(tagsStr.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.None));
+            tags.RemoveAll(str => str.EndsWith("^{}"));
+            if (tags.Count == 0 || (tags.Count == 1 && string.IsNullOrEmpty(tags[0])))
+                return new string[] { };
+            return tags.ToArray();
+        }
+
         private void checkDepend_CheckedChanged(object sender, EventArgs e)
         {
             //Log action taken
@@ -124,40 +137,8 @@ namespace sm64_pcport_installer
             this.outputText.Text += "Leave log open changed to " + this.checkLog.Checked + "\n";
         }
 
-        private void buttonCompile_Click(object sender, EventArgs e)
+        private void updateBaseArgs()
         {
-            if (verCombo.Items.Count == 0)
-            {
-                MessageBox.Show("Please wait until versions are loaded.");
-                return;
-            }
-            if (verCombo.SelectedIndex == -1)
-                verCombo.SelectedIndex = 0; // select latest
-            // Check for existing backup folder and create if not found
-            if (!Directory.Exists(this.backupText.Text))
-            {
-                Directory.CreateDirectory(this.backupText.Text);
-            }
-
-            // Set up repository and logging directory path
-            repoDir = Path.Combine(this.textMSYS2.Text, "home", Environment.UserName, sourceRepo);
-            portPath = Path.Combine(repoDir, "dist");
-            if (Directory.Exists(repoDir))
-            {
-                logDir = repoDir;
-            }
-            else
-            {
-                logDir = this.backupText.Text;
-            }
-
-            addToLog(DateTime.Now.ToLongDateString() + " " + DateTime.Now.ToLongTimeString());
-            addToLog("----------------------------------------");
-            addToLog("Pre-compile log dump:");
-            addToLog(this.outputText.Text);
-            addToLog("\nMSYS2 calls:");
-
-            this.outputText.Text += "Configuring MSYS2 process...\n";
             baseArgs = null;
 
             // Check if terminal should be shown to the user
@@ -178,7 +159,39 @@ namespace sm64_pcport_installer
                 baseArgs += "-h always ";
             }
 
-            baseArgs += "/bin/env MSYSTEM=MINGW64 /bin/bash -l -c '";
+            baseArgs += "/bin/env MSYSTEM=MINGW64 /bin/bash -l -c \"";
+        }
+
+        private void buttonCompile_Click(object sender, EventArgs e)
+        {
+            if (verCombo.Items.Count == 0)
+            {
+                MessageBox.Show("Please wait until versions are loaded.");
+                return;
+            }
+            if (verCombo.SelectedIndex == -1)
+                verCombo.SelectedIndex = 0; // select latest
+            // Check for existing backup folder and create if not found
+            if (!Directory.Exists(this.backupText.Text))
+            {
+                Directory.CreateDirectory(this.backupText.Text);
+            }
+
+            // Set up repository and logging directory path
+            repoDir = Path.Combine(this.textMSYS2.Text, "home", Environment.UserName, sourceRepo);
+            portPath = Path.Combine(repoDir, "dist");
+
+            logDir = this.backupText.Text;
+            
+
+            addToLog(DateTime.Now.ToLongDateString() + " " + DateTime.Now.ToLongTimeString());
+            addToLog("----------------------------------------");
+            addToLog("Pre-compile log dump:");
+            addToLog(this.outputText.Text);
+            addToLog("\nMSYS2 calls:");
+
+            this.outputText.Text += "Configuring MSYS2 process...\n";
+            updateBaseArgs();
 
             // Check for dependency updates via pacman
             if (this.checkDepend.Checked)
@@ -237,8 +250,9 @@ namespace sm64_pcport_installer
             
         }
 
-        private void executeMSYS2(string commands)
+        private string executeMSYS2(string commands)
         {
+            updateBaseArgs();
             // Set up individual processes
             Process mintty = new Process();
 
@@ -247,7 +261,7 @@ namespace sm64_pcport_installer
             minttyStart.FileName = this.textMSYS2.Text + "\\usr\\bin\\mintty.exe";
 
             // Combine individual commands with common arguments
-            minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log'";
+            minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log\"";
 
             // Add call to log file
             addToLog(minttyStart.FileName);
@@ -263,7 +277,9 @@ namespace sm64_pcport_installer
                 Thread.Sleep(10);
             }
             mintty.StandardOutput.ReadToEnd();
-            this.outputText.Text += System.IO.File.ReadAllText(Path.Combine(this.textMSYS2.Text, "home", Environment.UserName, "msys2.log"));
+            var output= System.IO.File.ReadAllText(Path.Combine(this.textMSYS2.Text, "home", Environment.UserName, "msys2.log"));
+            this.outputText.Text += output;
+            return output;
         }
 
         private void executeMSYS2(string commands, Boolean compile)
@@ -276,7 +292,7 @@ namespace sm64_pcport_installer
             minttyStart.FileName = this.textMSYS2.Text + "\\usr\\bin\\mintty.exe";
 
             // Combine individual commands with common arguments
-            minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log'";
+            minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log\"";
 
             // Add call to log file
             addToLog(minttyStart.FileName);
@@ -408,13 +424,13 @@ namespace sm64_pcport_installer
         {
             if (Directory.Exists(repoDir))
             {
-                Directory.Delete(repoDir, true);
+                executeMSYS2($"rm -rf {sourceRepo}");
             }
             // Log cloning action
             this.outputText.Text += "Cloning from " + sourceRepo + " repository...\n";
             this.outputText.Text += "Connecting to " + sourceRepoURL + "\n";
-
-            executeMSYS2("git clone " + sourceRepoURL + " " + sourceRepo, true);
+            
+            executeMSYS2($"git clone {sourceRepoURL} --depth 1 --branch {verCombo.Text} {sourceRepo}", true);
 
             // Log action
             this.outputText.Text += sourceRepo + " repository cloned.\n";
@@ -423,10 +439,21 @@ namespace sm64_pcport_installer
 
         private void addToLog(string input)
         {
+            if (logDir == null)
+            {
+                logDir = this.backupText.Text; 
+            }
             using (StreamWriter logFile = new StreamWriter(Path.Combine(logDir, "build.log"),true))
             {
                 logFile.WriteLine(input);
             }
+        }
+
+        private void getVersBtn_Click(object sender, EventArgs e)
+        {
+            var vers = getVersions();
+            verCombo.Items.Clear();
+            verCombo.Items.AddRange(vers);
         }
     }
 }
