@@ -245,121 +245,7 @@ system can handle it.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobNumber.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="backupText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 218</value>
-  </data>
-  <data name="backupText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="backupText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="backupText.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="backupText.ToolTip" xml:space="preserve">
-    <value>This allows you to select a directory to be used for
-assorted backup processes. This includes backing
-up existing, non-git folders of the required names
-as well as a temporary location for the 'build.log'
-file until the build is complete.</value>
-  </data>
-  <data name="&gt;&gt;backupText.Name" xml:space="preserve">
-    <value>backupText</value>
-  </data>
-  <data name="&gt;&gt;backupText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;backupText.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;backupText.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="labelBackup.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelBackup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelBackup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 201</value>
-  </data>
-  <data name="labelBackup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
-  </data>
-  <data name="labelBackup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 13</value>
-  </data>
-  <data name="labelBackup.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="labelBackup.Text" xml:space="preserve">
-    <value>Backup Directory:</value>
-  </data>
-  <data name="labelBackup.ToolTip" xml:space="preserve">
-    <value>This allows you to select a directory to be used for
-assorted backup processes. This includes backing
-up existing, non-git folders of the required names
-as well as a temporary location for the 'build.log'
-file until the build is complete.</value>
-  </data>
-  <data name="&gt;&gt;labelBackup.Name" xml:space="preserve">
-    <value>labelBackup</value>
-  </data>
-  <data name="&gt;&gt;labelBackup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelBackup.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;labelBackup.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="backupBrowse.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="backupBrowse.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="backupBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="backupBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 216</value>
-  </data>
-  <data name="backupBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="backupBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 23</value>
-  </data>
-  <data name="backupBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="backupBrowse.Text" xml:space="preserve">
-    <value>Browse...</value>
-  </data>
-  <data name="backupBrowse.ToolTip" xml:space="preserve">
-    <value>This allows you to select a directory to be used for
-assorted backup processes. This includes backing
-up existing, non-git folders of the required names
-as well as a temporary location for the 'build.log'
-file until the build is complete.</value>
-  </data>
-  <data name="&gt;&gt;backupBrowse.Name" xml:space="preserve">
-    <value>backupBrowse</value>
-  </data>
-  <data name="&gt;&gt;backupBrowse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;backupBrowse.Parent" xml:space="preserve">
-    <value>panelSimple</value>
-  </data>
-  <data name="&gt;&gt;backupBrowse.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="checkDepend.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -628,7 +514,7 @@ will continue.</value>
     <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelLog.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="checkTerm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -853,47 +739,29 @@ however may change in time.</value>
   <data name="panelAdvanced.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
-  <data name="&gt;&gt;makeGroup.Name" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;makeGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;makeGroup.Parent" xml:space="preserve">
-    <value>panelAdvanced</value>
-  </data>
-  <data name="&gt;&gt;makeGroup.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panelAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>377, 5</value>
-  </data>
-  <data name="panelAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 142</value>
-  </data>
-  <data name="panelAdvanced.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="panelAdvanced.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;panelAdvanced.Name" xml:space="preserve">
-    <value>panelAdvanced</value>
-  </data>
-  <data name="&gt;&gt;panelAdvanced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelAdvanced.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelAdvanced.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="makeGroup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="makeGroup.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 78</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Troubleshooting</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -931,34 +799,28 @@ however may change in time.</value>
   <data name="&gt;&gt;makeGroup.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="panelAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 5</value>
   </data>
-  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
+  <data name="panelAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 142</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 39</value>
+  <data name="panelAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 78</value>
+  <data name="panelAdvanced.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <data name="&gt;&gt;panelAdvanced.Name" xml:space="preserve">
+    <value>panelAdvanced</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Troubleshooting</value>
+  <data name="&gt;&gt;panelAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;panelAdvanced.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>makeGroup</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panelAdvanced.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

@@ -34,9 +34,6 @@
             this.outputText = new System.Windows.Forms.RichTextBox();
             this.jobLabel = new System.Windows.Forms.Label();
             this.jobNumber = new System.Windows.Forms.NumericUpDown();
-            this.backupText = new System.Windows.Forms.TextBox();
-            this.labelBackup = new System.Windows.Forms.Label();
-            this.backupBrowse = new System.Windows.Forms.Button();
             this.checkDepend = new System.Windows.Forms.CheckBox();
             this.sm64PortLogo = new System.Windows.Forms.PictureBox();
             this.buttonCompile = new System.Windows.Forms.Button();
@@ -49,13 +46,13 @@
             this.compileProgress = new System.Windows.Forms.ProgressBar();
             this.advancedBar = new System.Windows.Forms.PictureBox();
             this.panelSimple = new System.Windows.Forms.Panel();
+            this.getVersBtn = new System.Windows.Forms.Button();
             this.versionLabel = new System.Windows.Forms.Label();
             this.verCombo = new System.Windows.Forms.ComboBox();
             this.panelAdvanced = new System.Windows.Forms.Panel();
             this.makeGroup = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.toolTipMain = new System.Windows.Forms.ToolTip(this.components);
-            this.getVersBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.jobNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sm64PortLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.advancedBar)).BeginInit();
@@ -84,26 +81,6 @@
             this.jobNumber.Name = "jobNumber";
             this.toolTipMain.SetToolTip(this.jobNumber, resources.GetString("jobNumber.ToolTip"));
             this.jobNumber.ValueChanged += new System.EventHandler(this.jobNumber_ValueChanged);
-            // 
-            // backupText
-            // 
-            resources.ApplyResources(this.backupText, "backupText");
-            this.backupText.Name = "backupText";
-            this.toolTipMain.SetToolTip(this.backupText, resources.GetString("backupText.ToolTip"));
-            // 
-            // labelBackup
-            // 
-            resources.ApplyResources(this.labelBackup, "labelBackup");
-            this.labelBackup.Name = "labelBackup";
-            this.toolTipMain.SetToolTip(this.labelBackup, resources.GetString("labelBackup.ToolTip"));
-            // 
-            // backupBrowse
-            // 
-            resources.ApplyResources(this.backupBrowse, "backupBrowse");
-            this.backupBrowse.Name = "backupBrowse";
-            this.toolTipMain.SetToolTip(this.backupBrowse, resources.GetString("backupBrowse.ToolTip"));
-            this.backupBrowse.UseVisualStyleBackColor = true;
-            this.backupBrowse.Click += new System.EventHandler(this.backupBrowse_Click);
             // 
             // checkDepend
             // 
@@ -201,12 +178,16 @@
             this.panelSimple.Controls.Add(this.checkDepend);
             this.panelSimple.Controls.Add(this.buttonMSYS2);
             this.panelSimple.Controls.Add(this.jobLabel);
-            this.panelSimple.Controls.Add(this.backupBrowse);
             this.panelSimple.Controls.Add(this.labelLog);
-            this.panelSimple.Controls.Add(this.labelBackup);
             this.panelSimple.Controls.Add(this.jobNumber);
-            this.panelSimple.Controls.Add(this.backupText);
             this.panelSimple.Name = "panelSimple";
+            // 
+            // getVersBtn
+            // 
+            resources.ApplyResources(this.getVersBtn, "getVersBtn");
+            this.getVersBtn.Name = "getVersBtn";
+            this.getVersBtn.UseVisualStyleBackColor = true;
+            this.getVersBtn.Click += new System.EventHandler(this.getVersBtn_Click);
             // 
             // versionLabel
             // 
@@ -245,13 +226,6 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // getVersBtn
-            // 
-            resources.ApplyResources(this.getVersBtn, "getVersBtn");
-            this.getVersBtn.Name = "getVersBtn";
-            this.getVersBtn.UseVisualStyleBackColor = true;
-            this.getVersBtn.Click += new System.EventHandler(this.getVersBtn_Click);
-            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
@@ -282,9 +256,6 @@
         private System.Windows.Forms.RichTextBox outputText;
         private System.Windows.Forms.Label jobLabel;
         private System.Windows.Forms.NumericUpDown jobNumber;
-        private System.Windows.Forms.TextBox backupText;
-        private System.Windows.Forms.Label labelBackup;
-        private System.Windows.Forms.Button backupBrowse;
         private System.Windows.Forms.CheckBox checkDepend;
         private System.Windows.Forms.PictureBox sm64PortLogo;
         private System.Windows.Forms.Button buttonCompile;

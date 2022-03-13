@@ -29,7 +29,7 @@ namespace sm64_pcport_installer
         private string baseArgs;
         private string repoDir;
         private string portPath;
-        private string logDir;
+        private string logDir="";
 
         private Boolean advanced;
 
@@ -86,18 +86,6 @@ namespace sm64_pcport_installer
         {
             //Log action taken
             this.outputText.Text += "Number of jobs allocated was set to " + this.jobNumber.Value + "\n";
-        }
-
-        private void backupBrowse_Click(object sender, EventArgs e)
-        {
-            DialogResult result = folderBrowserDialog1.ShowDialog();
-            if( result == DialogResult.OK )
-            {
-                this.backupText.Text = folderBrowserDialog1.SelectedPath;
-
-                // Log action
-                this.outputText.Text += "Changed the backup directory to:\n" + this.backupText.Text + "\n";
-            }
         }
 
         private void buttonMSYS2_Click(object sender, EventArgs e)
@@ -172,16 +160,10 @@ namespace sm64_pcport_installer
             if (verCombo.SelectedIndex == -1)
                 verCombo.SelectedIndex = 0; // select latest
             // Check for existing backup folder and create if not found
-            if (!Directory.Exists(this.backupText.Text))
-            {
-                Directory.CreateDirectory(this.backupText.Text);
-            }
 
             // Set up repository and logging directory path
             repoDir = Path.Combine(this.textMSYS2.Text, "home", Environment.UserName, sourceRepo);
             portPath = Path.Combine(repoDir, "dist");
-
-            logDir = this.backupText.Text;
             
 
             addToLog(DateTime.Now.ToLongDateString() + " " + DateTime.Now.ToLongTimeString());
@@ -378,7 +360,6 @@ namespace sm64_pcport_installer
         {
             if (this.checkDepend.Enabled) Settings.Default.updateMSY2 = this.checkDepend.Checked;
             if (this.jobNumber.Enabled) Settings.Default.jobNum = (int)this.jobNumber.Value;
-            if (this.backupText.Enabled) Settings.Default.backup = this.backupText.Text;
             if (this.textMSYS2.Enabled) Settings.Default.msys2 = this.textMSYS2.Text;
             if (this.checkTerm.Enabled) Settings.Default.terminal = this.checkTerm.Checked;
             if (this.checkLog.Enabled) Settings.Default.log = this.checkLog.Checked;
@@ -398,14 +379,6 @@ namespace sm64_pcport_installer
             else
             {
                 this.jobNumber.Value = Settings.Default.jobNum;
-            }
-            if (Directory.Exists(Settings.Default.backup))
-            {
-                this.backupText.Text = Settings.Default.backup;
-            }
-            else
-            {
-                this.backupText.Text = Path.Combine(Directory.GetCurrentDirectory(), "backup");
             }
             if (Directory.Exists(Settings.Default.msys2))
             {
@@ -439,10 +412,6 @@ namespace sm64_pcport_installer
 
         private void addToLog(string input)
         {
-            if (logDir == null)
-            {
-                logDir = this.backupText.Text; 
-            }
             using (StreamWriter logFile = new StreamWriter(Path.Combine(logDir, "build.log"),true))
             {
                 logFile.WriteLine(input);
@@ -451,6 +420,17 @@ namespace sm64_pcport_installer
 
         private void getVersBtn_Click(object sender, EventArgs e)
         {
+            // Check for dependency updates via pacman
+            if (this.checkDepend.Checked)
+            {
+                // Log action
+                this.outputText.Text += "Checking for dependency udpates via pacman...\n";
+
+                executeMSYS2("pacman -S --needed --noconfirm git make python3 mingw-w64-x86_64-gcc");
+
+                // Log action
+                this.outputText.Text += "Dependencies are up-to-date.\n";
+            }
             var vers = getVersions();
             verCombo.Items.Clear();
             verCombo.Items.AddRange(vers);
