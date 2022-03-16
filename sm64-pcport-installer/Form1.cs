@@ -71,6 +71,7 @@ namespace sm64_pcport_installer
             // Split tags into separate lines, add to tags list
             tags.AddRange(tagsStr.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.None));
             tags.RemoveAll(str => str.EndsWith("^{}"));
+            tags.RemoveAll(str=>string.IsNullOrEmpty(str));
             if (tags.Count == 0 || (tags.Count == 1 && string.IsNullOrEmpty(tags[0])))
                 return new string[] { };
             return tags.ToArray();
@@ -123,6 +124,8 @@ namespace sm64_pcport_installer
         {
             //Log action taken
             this.outputText.Text += "Leave log open changed to " + this.checkLog.Checked + "\n";
+            if (this.checkLog.Checked)
+                MessageBox.Show("Warning: you will have to manually close the terminal windows once the command finishes executing for the build process to continue.");
         }
 
         private void updateBaseArgs()
@@ -154,7 +157,7 @@ namespace sm64_pcport_installer
         {
             if (verCombo.Items.Count == 0)
             {
-                MessageBox.Show("Please wait until versions are loaded.");
+                MessageBox.Show("Please select a version.");
                 return;
             }
             if (verCombo.SelectedIndex == -1)
@@ -434,6 +437,8 @@ namespace sm64_pcport_installer
             var vers = getVersions();
             verCombo.Items.Clear();
             verCombo.Items.AddRange(vers);
+            if (verCombo.Items.Count > 0)
+                verCombo.SelectedIndex = verCombo.Items.Count-1;
         }
     }
 }
